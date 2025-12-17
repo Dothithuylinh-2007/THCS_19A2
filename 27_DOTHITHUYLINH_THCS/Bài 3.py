@@ -1,5 +1,0 @@
-def kiem_tra_so_armstrong(n):
-    tong = sum(int(ch)**3 for ch in str(n))
-    return tong == n
-n = int(input("Nhập n: "))
-print(kiem_tra_so_armstrong(n))
